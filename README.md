@@ -9,7 +9,6 @@ Figure 1: Illustration of two key protein motifs, i.e., `His94-His96-His119`and 
 Deep neural networks, particularly Transformers, have been widely adopted for predicting the functional properties of proteins. In this work, we focus on exploring whether Protein Transformers can capture biological intelligence among protein sequences. To achieve our goal, we first introduce a protein function dataset, namely **Protein-FN**, providing over 9000 protein data with meaningful labels. Second, we devise a new Transformer architecture, namely **Sequence Protein Transformers (SPT)**, for computationally efficient protein function predictions. Third, we develop a novel Explainable Artificial Intelligence (XAI) technique called **Sequence Score**, which can efficiently interpret the decision-making processes of protein models, thereby overcoming the difficulty of deciphering biological intelligence bided in Protein Transformers. Remarkably, even our smallest SPT-Tiny model, which contains only 5.4M parameters, demonstrates impressive predictive accuracy, achieving 94.3% on the Antibiotic Resistance (AR) dataset and 99.6% on the Protein-FN dataset, all accomplished by training from scratch. Besides, our Sequence Score technique helps reveal that our SPT models can discover several meaningful patterns underlying the sequence structures of protein data, with these patterns aligning closely with the domain knowledge in the biology community.
 
 
-
 ## The Protein-FN Dataset
 
 Table 1: Overview of our protein function (Protein-FN) dataset
@@ -21,7 +20,6 @@ Table 1: Overview of our protein function (Protein-FN) dataset
 This section introduces our protein function (**Protein-FN**) dataset, designed specifically for such biological tasks as protein function prediction, motif identification and discovery, etc. The above table provides an overview of our Protein-FN dataset. This dataset, sourced from the Protein Data Bank (PDB), provides diverse 1D amino acid sequences, 3D protein structures, functional properties of 9014 proteins. These proteins, after carefully examined by biological experts in our team, fall into six categories, i.e., protease, kinase, receptor, carbonic anhydrase, phosphatase, and isomerase. Notably, kinases, phosphatases, proteases, and receptors play essential roles in signal transduction. Most drugs act on proteins involved in signal transduction. Isomerases and carbonic anhydrases are two enzymes that are not directly involved in signal transduction pathways, but they catalyze critical reactions. We have officially released our Protein-FN dataset on Hugging Face Datasets https://huggingface.co/datasets/Protein-FN/Protein-FN.
 
 ​	
-
 ## Sequence Protein Transformers (SPT)
 
 ![SeqViT](input/method-seq-vit-arch.png)
