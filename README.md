@@ -78,3 +78,7 @@ python main_finetune_spt_benchmarks.py --data_root ./data/Antibiotic\ Resistance
 ## License
 
 This repository is under the CC-BY-NC 4.0 license. Please refer to the [LICENSE](LICENSE)  file for details.
+
+## Terms of Use
+
+The Protein-FN dataset is available for research purposes only. By downloading, you agree to these terms. Please note that any republication or distribution of this dataset without permission is prohibited and constitutes copyright infringement.
