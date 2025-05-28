@@ -1,0 +1,11 @@
+torch == 1.13.0
+torchvision == 0.14.0
+numpy == 1.26.0
+pandas == 2.0.3
+argparse == 1.4.0
+timm == 0.5.4
+scipy == 1.11.3
+biopandas == 0.4.1
+tensorboard == 2.13.0
+einops == 0.7.0
+grad-cam == 1.4.8
