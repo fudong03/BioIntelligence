@@ -17,7 +17,7 @@ Table 1: Overview of our protein function (Protein-FN) dataset
 | :----------: | :------: | :----: | :------: | :----------------: | :---------: | :-------: | ----- |
 | **# Sample** |   3067   |  2502  |   1437   |        1206        |     431     |    371    | 9014  |
 
-This section introduces our protein function (**Protein-FN**) dataset, designed specifically for such biological tasks as protein function prediction, motif identification and discovery, etc. The above table provides an overview of our Protein-FN dataset. This dataset, sourced from the Protein Data Bank (PDB), provides diverse 1D amino acid sequences, 3D protein structures, functional properties of 9014 proteins. These proteins, after carefully examined by biological experts in our team, fall into six categories, i.e., protease, kinase, receptor, carbonic anhydrase, phosphatase, and isomerase. Notably, kinases, phosphatases, proteases, and receptors play essential roles in signal transduction. Most drugs act on proteins involved in signal transduction. Isomerases and carbonic anhydrases are two enzymes that are not directly involved in signal transduction pathways, but they catalyze critical reactions. We have officially released our Protein-FN dataset on Hugging Face Datasets https://huggingface.co/datasets/Protein-FN/Protein-FN.
+This section introduces our protein function (**Protein-FN**) dataset, designed specifically for such biological tasks as protein function prediction, motif identification and discovery, etc. The above table provides an overview of our Protein-FN dataset. This dataset, sourced from the Protein Data Bank (PDB), provides diverse 1D amino acid sequences, 3D protein structures, functional properties of 9014 proteins. These proteins, after carefully examined by biological experts in our team, fall into six categories, i.e., protease, kinase, receptor, carbonic anhydrase, phosphatase, and isomerase. Notably, kinases, phosphatases, proteases, and receptors play essential roles in signal transduction. Most drugs act on proteins involved in signal transduction. Isomerases and carbonic anhydrases are two enzymes that are not directly involved in signal transduction pathways, but they catalyze critical reactions. We have officially released our Protein-FN dataset on [Hugging Face Datasets](https://huggingface.co/datasets/Protein-FN/Protein-FN).
 
 ​	
 ## Sequence Protein Transformers (SPT)
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 - **The Protein-FN Dataset**
 
-To reproduce our experiments, please download our Protein-FN dataset from [HuggingFace Datasets](https://huggingface.co/datasets/Protein-FN/Protein-FN), and then move the dataset to a directory, e.g., `/mnt/data/protein`. After that, you can train the SPT model via the following command:
+To reproduce our experiments, please download our Protein-FN dataset from [Hugging Face Datasets](https://huggingface.co/datasets/Protein-FN/Protein-FN), and then move the dataset to a directory, e.g., `/mnt/data/protein`. After that, you can train the SPT model via the following command:
 
 ```shell
 # train the SPT-Tiny model
