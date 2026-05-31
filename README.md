@@ -9,6 +9,28 @@ Figure 1: Illustration of two key protein motifs, i.e., `His94-His96-His119`and 
 Deep neural networks, particularly Transformers, have been widely adopted for predicting the functional properties of proteins. In this work, we focus on exploring whether Protein Transformers can capture biological intelligence among protein sequences. To achieve our goal, we first introduce a protein function dataset, namely **Protein-FN**, providing over 9000 protein data with meaningful labels. Second, we devise a new Transformer architecture, namely **Sequence Protein Transformers (SPT)**, for computationally efficient protein function predictions. Third, we develop a novel Explainable Artificial Intelligence (XAI) technique called **Sequence Score**, which can efficiently interpret the decision-making processes of protein models, thereby overcoming the difficulty of deciphering biological intelligence bided in Protein Transformers. Remarkably, even our smallest SPT-Tiny model, which contains only 5.4M parameters, demonstrates impressive predictive accuracy, achieving 94.3% on the Antibiotic Resistance (AR) dataset and 99.6% on the Protein-FN dataset, all accomplished by training from scratch. Besides, our Sequence Score technique helps reveal that our SPT models can discover several meaningful patterns underlying the sequence structures of protein data, with these patterns aligning closely with the domain knowledge in the biology community.
 
 
+## Citation
+
+If you find our paper useful in your research, we would greatly appreciate it if you could cite our work:
+
+```
+@inproceedings{fudong:ecml_pkdd25:protein,
+  author       = {Fudong Lin and
+                  Wanrou Du and
+                  Jinchan Liu and
+                  Tarikul I. Milon and
+                  Shelby Meche and
+                  Wu Xu and
+                  Xiaoqi Qin and
+                  Xu Yuan},
+  title        = {Do Protein Transformers Have Biological Intelligence?},
+  booktitle    = {European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)},
+  pages        = {373-390},
+  year         = {2025}
+}
+```
+
+
 ## The Protein-FN Dataset
 
 Table 1: Overview of our protein function (Protein-FN) dataset
